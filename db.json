@@ -1,0 +1,224 @@
+{
+  "employees": [
+    {
+      "first_name": "First name",
+      "last_name": "Last name",
+      "email": "employe1@codingthesmartway.com",
+      "id": 1
+    },
+    {
+      "id": 2,
+      "first_name": "Steve",
+      "last_name": "Palmer",
+      "email": "steve@codingthesmartway.com"
+    },
+    {
+      "first_name": "Steve",
+      "last_name": "Palmer",
+      "email": "employe1@codingthesmartway.com",
+      "id": 3
+    },
+    {
+      "first_name": "Steve",
+      "last_name": "Palmer",
+      "email": "employe1@codingthesmartway.com",
+      "id": 4
+    },
+    {
+      "first_name": "Steve",
+      "last_name": "Palmer",
+      "email": "employe1@codingthesmartway.com",
+      "id": 5
+    },
+    {
+      "first_name": "Steve",
+      "last_name": "Palmer",
+      "email": "employe1@codingthesmartway.com",
+      "id": 6
+    },
+    {
+      "first_name": "Steve",
+      "last_name": "Palmer",
+      "email": "employe1@codingthesmartway.com",
+      "id": 7
+    },
+    {
+      "first_name": "",
+      "last_name": "",
+      "email": "",
+      "id": 8
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "username": "admin",
+      "password": "admin"
+    },
+    {
+      "username": "admin",
+      "password": "admin",
+      "id": 2
+    },
+    {
+      "username": "admin",
+      "password": "admin",
+      "id": 3
+    },
+    {
+      "username": "admin",
+      "password": "admin",
+      "id": 4
+    },
+    {
+      "username": "admin",
+      "password": "admin",
+      "id": 5
+    },
+    {
+      "username": "admin",
+      "password": "admin",
+      "id": 6
+    },
+    {
+      "username": "admin",
+      "password": "admin",
+      "id": 7
+    },
+    {
+      "username": "admin",
+      "password": "admin",
+      "id": 8
+    },
+    {
+      "username": "admin",
+      "password": "admin",
+      "id": 9
+    },
+    {
+      "username": "admin",
+      "password": "admin",
+      "id": 10
+    },
+    {
+      "username": "admin",
+      "password": "admin",
+      "id": 11
+    },
+    {
+      "username": "admin",
+      "password": "admin",
+      "id": 12
+    },
+    {
+      "username": "admin",
+      "password": "admin",
+      "id": 13
+    },
+    {
+      "username": "admin",
+      "password": "admin",
+      "id": 14
+    },
+    {
+      "username": "admin",
+      "password": "admin",
+      "id": 15
+    },
+    {
+      "username": "admin",
+      "password": "admin",
+      "id": 16
+    },
+    {
+      "username": "admin",
+      "password": "admin",
+      "id": 17
+    },
+    {
+      "username": "admin",
+      "password": "admin",
+      "id": 18
+    },
+    {
+      "username": "admin",
+      "password": "admin",
+      "id": 19
+    },
+    {
+      "username": "admin",
+      "password": "admin",
+      "id": 20
+    },
+    {
+      "username": "admin",
+      "password": "admin",
+      "id": 21
+    },
+    {
+      "username": "admin",
+      "password": "admin",
+      "id": 22
+    },
+    {
+      "username": "admin",
+      "password": "admin",
+      "id": 23
+    },
+    {
+      "username": "admin",
+      "password": "admin",
+      "id": 24
+    },
+    {
+      "username": "admin",
+      "password": "admin",
+      "id": 25
+    },
+    {
+      "username": "admin",
+      "password": "admin",
+      "id": 26
+    },
+    {
+      "username": "admin",
+      "password": "admin",
+      "id": 27
+    },
+    {
+      "username": "admin",
+      "password": "admin",
+      "id": 28
+    },
+    {
+      "username": "admin",
+      "password": "admin",
+      "id": 29
+    },
+    {
+      "username": "admin",
+      "password": "admin",
+      "id": 30
+    },
+    {
+      "username": "admin",
+      "password": "admin",
+      "id": 31
+    },
+    {
+      "username": "admin",
+      "password": "admin",
+      "id": 32
+    },
+    {
+      "username": "admin",
+      "password": "admin",
+      "id": 33
+    },
+    {
+      "username": "admin",
+      "password": "admin",
+      "id": 34
+    }
+  ]
+}

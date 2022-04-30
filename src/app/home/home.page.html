@@ -1,12 +1,7 @@
-
 <ion-content [fullscreen]="true">
-  
-
   <div id="container">
-    <strong>Ready to create an app?</strong>
-    <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
     <ion-app>
-      <ion-menu side="start" content-id="main-content">
+      <ion-menu side="start" content-id="main-content" class="my-custom-menu">
         <ion-header>
           <ion-toolbar translucent>
             <ion-title>Menu</ion-title>
@@ -14,46 +9,50 @@
         </ion-header>
         <ion-content>
           <ion-list>
-            <ion-item *ngIf="login===false">
-            <ion-icon name="person" slot="start" [routerLink]="['/login']" expand="block"></ion-icon>
-            <ion-label>Login</ion-label>
+            <ion-item *ngIf="login_verify===false" (click)="login()">
+              <ion-icon name="person" slot="start" (click)="login()" expand="block"></ion-icon>
+              <ion-button expand="block">Login</ion-button>
             </ion-item>
-            
-            <ion-item *ngIf="login">
-              <ion-icon name="person" slot="start"  expand="block"></ion-icon>
-              <ion-label>Listing</ion-label>
+            <ion-item *ngIf="login_verify" (click)="manage()">
+              <ion-icon name="people" slot="start" (click)="manage()" expand="block"></ion-icon>
+              <ion-button expand="block" >Manage Employee</ion-button>
             </ion-item>
-
-            <ion-item *ngIf="login" (click)="logout()">
-              <ion-icon name="person" slot="start" [routerLink]="['/home']" expand="block"></ion-icon>
-              <ion-label>Logout</ion-label>
+            <ion-item *ngIf="login_verify" (click)="logout()">
+              <ion-icon name="log-out" slot="start" (click)="logout()" expand="block"></ion-icon>
+              <ion-button expand="block" color="danger">Logout</ion-button>
             </ion-item>
-            
           </ion-list>
         </ion-content>
       </ion-menu>
-
       <div class="ion-page" id="main-content">
         <ion-header>
           <ion-toolbar>
             <ion-buttons slot="start">
               <ion-menu-button></ion-menu-button>
             </ion-buttons>
-            <ion-title>Gestion d'employer</ion-title>
+            <ion-title>Gestion d'employer </ion-title>
           </ion-toolbar>
         </ion-header>
         <ion-content class="ion-padding">
-         
-          <ion-list >
-            <ion-list-header >Recent employee</ion-list-header>
-            <ion-item-sliding class="shaded-slider" *ngFor="let emp of employee"> 
-            <ion-item>{{ emp.first_name }}  {{emp.last_name}}</ion-item>
+          <ion-text style="text-align :center" *ngIf="login_verify">
+            <h1>Welcome Admin, <span class="emoji">😎</span></h1>
+          </ion-text>
+          <ion-list>
+            <ion-list-header>Recent employee </ion-list-header>
+            <ion-item-sliding class="shaded-slider" *ngFor="let emp of employee">
+              <ion-item>
+                <ion-avatar slot="start">
+                  <img src="assets/users.png" />
+                </ion-avatar>
+                <ion-label>
+                  <h2>{{emp.first_name}}</h2>
+                  <h3>{{emp.last_name}}</h3>
+                </ion-label>
+              </ion-item>
             </ion-item-sliding>
           </ion-list>
         </ion-content>
       </div>
     </ion-app>
-    
   </div>
-  
 </ion-content>

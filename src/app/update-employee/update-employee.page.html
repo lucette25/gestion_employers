@@ -1,0 +1,44 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>update-employee</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="auth-form">
+  <ion-grid>
+    <ion-row>
+      <ion-col class="ion-align-self-center" >
+        <form (ngSubmit)="onSubmit()" [formGroup]="credentials">
+          <ion-avatar slot="start" class="avatar">
+            <img src="assets/users.png"  />
+          </ion-avatar>
+          <ion-item lines="full">
+            <ion-label position="floating">First Name</ion-label>
+            <ion-input type="text" formControlName="first_name" required></ion-input>
+          </ion-item>
+          
+          <ion-item lines="full">
+            <ion-label position="floating">Last Name</ion-label>
+            <ion-input type="text" formControlName="last_name" required></ion-input>
+          </ion-item>
+          <ion-item lines="full">
+            <ion-label position="floating">Email</ion-label>
+            <ion-input type="email" formControlName="email" required></ion-input>
+          </ion-item>
+
+          <ion-row>
+            <ion-col text-center>
+              <ion-button [routerLink]="['/manage']">Close</ion-button>
+            </ion-col>
+            <ion-col>
+              <ion-button type="submit" color="warning" expand="block">Update</ion-button>
+            </ion-col>
+          </ion-row>
+    
+        </form>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+  
+
+</ion-content>

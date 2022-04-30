@@ -13,40 +13,22 @@
       "email": "steve@codingthesmartway.com"
     },
     {
-      "first_name": "Steve",
-      "last_name": "Palmer",
-      "email": "employe1@codingthesmartway.com",
+      "first_name": "didiem",
+      "last_name": "duboisn",
+      "email": "dd@gmail.com",
       "id": 3
     },
     {
-      "first_name": "Steve",
-      "last_name": "Palmer",
-      "email": "employe1@codingthesmartway.com",
+      "first_name": "Truemanage",
+      "last_name": "false2",
+      "email": "yes@gmail.com",
       "id": 4
     },
     {
-      "first_name": "Steve",
-      "last_name": "Palmer",
-      "email": "employe1@codingthesmartway.com",
+      "first_name": "jjjjjjjj",
+      "last_name": "ccc",
+      "email": "cb@gmail.com",
       "id": 5
-    },
-    {
-      "first_name": "Steve",
-      "last_name": "Palmer",
-      "email": "employe1@codingthesmartway.com",
-      "id": 6
-    },
-    {
-      "first_name": "Steve",
-      "last_name": "Palmer",
-      "email": "employe1@codingthesmartway.com",
-      "id": 7
-    },
-    {
-      "first_name": "",
-      "last_name": "",
-      "email": "",
-      "id": 8
     }
   ],
   "users": [
@@ -219,6 +201,76 @@
       "username": "admin",
       "password": "admin",
       "id": 34
+    },
+    {
+      "username": "admin2",
+      "password": "admin2",
+      "id": 35
+    },
+    {
+      "username": "admin",
+      "password": "admin",
+      "id": 36
+    },
+    {
+      "username": "admin",
+      "password": "admin",
+      "id": 37
+    },
+    {
+      "username": "admin",
+      "password": "admin",
+      "id": 38
+    },
+    {
+      "username": "admin",
+      "password": "admin",
+      "id": 39
+    },
+    {
+      "username": "admin",
+      "password": "admin",
+      "id": 40
+    },
+    {
+      "username": "admin",
+      "password": "admin",
+      "id": 41
+    },
+    {
+      "username": "admin",
+      "password": "admin",
+      "id": 42
+    },
+    {
+      "username": "admin",
+      "password": "admin",
+      "id": 43
+    },
+    {
+      "username": "admin",
+      "password": "admin",
+      "id": 44
+    },
+    {
+      "username": "admin",
+      "password": "admin",
+      "id": 45
+    },
+    {
+      "username": "admin",
+      "password": "admin",
+      "id": 46
+    },
+    {
+      "username": "admin",
+      "password": "admin",
+      "id": 47
+    },
+    {
+      "username": "admin",
+      "password": "admin",
+      "id": 48
     }
   ]
 }

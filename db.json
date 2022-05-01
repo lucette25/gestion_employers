@@ -7,28 +7,10 @@
       "id": 1
     },
     {
-      "id": 2,
       "first_name": "Steve",
       "last_name": "Palmer",
-      "email": "steve@codingthesmartway.com"
-    },
-    {
-      "first_name": "didiem",
-      "last_name": "duboisn",
-      "email": "dd@gmail.com",
-      "id": 3
-    },
-    {
-      "first_name": "Truemanage",
-      "last_name": "false2",
-      "email": "yes@gmail.com",
-      "id": 4
-    },
-    {
-      "first_name": "jjjjjjjj",
-      "last_name": "ccc",
-      "email": "cb@gmail.com",
-      "id": 5
+      "email": "steve@codingthesmartway.com",
+      "id": 2
     }
   ],
   "users": [
@@ -271,6 +253,46 @@
       "username": "admin",
       "password": "admin",
       "id": 48
+    },
+    {
+      "username": "admin",
+      "password": "admin",
+      "id": 49
+    },
+    {
+      "username": "admin",
+      "password": "admin",
+      "id": 50
+    },
+    {
+      "username": "admin",
+      "password": "admin",
+      "id": 51
+    },
+    {
+      "username": "admin",
+      "password": "admin",
+      "id": 52
+    },
+    {
+      "username": "admin",
+      "password": "admin",
+      "id": 53
+    },
+    {
+      "username": "admin",
+      "password": "admin",
+      "id": 54
+    },
+    {
+      "username": "admin",
+      "password": "admin",
+      "id": 55
+    },
+    {
+      "username": "admin",
+      "password": "admin",
+      "id": 56
     }
   ]
 }

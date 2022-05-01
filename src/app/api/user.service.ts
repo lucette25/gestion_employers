@@ -35,7 +35,5 @@ export class UserService {
   login(username, password): Observable<any>{
     return this.http.post<any>(`${this.api}/users`, { username, password },httpOptions);
   }
-  isLoggedIn(): boolean {
-    return false;
-  }
+
 }

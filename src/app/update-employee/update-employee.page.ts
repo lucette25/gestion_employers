@@ -33,9 +33,12 @@ export class UpdateEmployeePage implements OnInit {
     }
     this.userService.updateEmployees(this.empId,this.credentials.value).subscribe(
       async (res) => {
-        console.log('rest', res);
+        console.log('rest2', res);
 
-        this.router.navigateByUrl('/manage', { replaceUrl: true });
+       // this.router.navigateByUrl('/manage', { replaceUrl: true });
+        this.router.navigateByUrl('/manage', {skipLocationChange: true}).then(() => {
+          this.router.navigate(["/manage"]);
+          });
         this.notification();
       }
     );

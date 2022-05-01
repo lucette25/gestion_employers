@@ -88,18 +88,18 @@ export class ManagePage implements OnInit {
         }
 
         async presentUpdateConfirm(emp) {
-         
+
           this.router.navigateByUrl('/update-employee',{ state: { emp:emp}});
 
-         
+
         }
 
         delete(emp){
           this.presentAlertConfirm(emp);
         }
         update(emp){
-          this.router.navigateByUrl('/update-employee',{ state: { emp:emp}});
-          
+          this.router.navigateByUrl('/update-employee',{ state: { emp:emp},replaceUrl: true});
+
 
         }
         async notification() {
